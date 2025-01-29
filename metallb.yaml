@@ -12,3 +12,6 @@ kind: L2Advertisement
 metadata:
   name: l2ad
   namespace: metallb-system
+spec:
+  ipAddressPools:
+  - secpool
